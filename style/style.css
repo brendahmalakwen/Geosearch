@@ -1,0 +1,62 @@
+body {
+    font-family: 'Source Sans Pro';
+    background-image: url("background.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  .content-section {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+  }
+  
+  .content-section-heading h2 {
+    font-size: 3rem;
+  }
+  
+  .content-section-heading h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+.masthead {
+    min-height: 30rem;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("background.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.masthead h1 {
+    font-size: 8rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+form {
+    margin: 0 0 2em 0;
+    text-align: center;
+}
+@media (max-width: 992px) {
+    .map {
+      height: 75%;
+    }
+  }
+
+.btn-primary {
+    background-color: #F0F0F0	 !important;
+    border: none;
+    color: #fff !important;
+    padding: 15px,30px;
+    text-align: center;
+    text-decoration: black;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 8px;
+} 
