@@ -14,13 +14,17 @@
     <header class="masthead d-flex">
         <div class="container text-center my-auto">
             <h1 class="mb-1">Geo-search</h1>
-            <form>    
-                <label for="Location">Enter your location</label>    
-                <input id="Location" type="text" class="form-control" ><br>
-                <a class="btn btn-primary btn-xl js-scroll-trigger" id="search-button" </a>               
+            <form  action= map.html class="form-group">    
+                <label for="Location">Enter your location</label><br>    
+                <input id="location" type="text" class="form-control" ><br>
+                <button  class="ClassName" type="submit" id="search-button"> Search </button>               
             </form>
-        <div class="overlay"></div>
+        </div>
     </header>
-        
+    <div class="row">
+        <p id="weather-report" class="col-sm-8 offset-sm-2 text-center">
+        </p>
+    </div>
+    <script src="/script.js"></script>    
     </body>
 </html>

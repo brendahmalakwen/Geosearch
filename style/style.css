@@ -4,18 +4,21 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
+  margin: 0;
+  padding: 0;
 }
-  
-  .content-section {
+
+.content-section {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
   }
   
-  .content-section-heading h2 {
+.content-section-heading h2 {
     font-size: 3rem;
   }
   
-  .content-section-heading h3 {
+.content-section-heading h3 {
     font-size: 1rem;
     text-transform: uppercase;
   }
@@ -49,14 +52,39 @@ form {
     }
   }
 
-.btn-primary {
-    background-color: #F0F0F0	 !important;
+.btn {
+    background-color: rgb(32, 153, 21) !important;
     border: none;
     color: #fff !important;
-    padding: 15px,30px;
     text-align: center;
-    text-decoration: black;
+    text-decoration: rgba(0, 0, 0, 0.705);
     display: inline-block;
     font-size: 24px;
     border-radius: 8px;
+} 
+
+.ClassName {
+	text-decoration:none;
+	font-family:Arial;
+	box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+	-moz-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+	-webkit-box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+	background:#2ef1ff;
+	background:-o-linear-gradient(90deg, #2ef1ff, #7d3deb);
+	background:-moz-linear-gradient( center top, #2ef1ff 5%, #7d3deb 100% );
+	background:-webkit-linear-gradient(#2ef1ff, #7d3deb);
+	background:-ms-linear-gradient(#2ef1ff, #7d3deb);
+	background:linear-gradient(#2ef1ff, #7d3deb);
+	line-height:30px;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	text-align:center;
+	vertical-align:middle;
+	display:inline-block;
+	font-size:20px;
+	color:#0f0e0f;
+	border-color:#659dab;
+	border-width:2px;
+	border-style:solid;
 } 
