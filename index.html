@@ -1,30 +1,26 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style/style.css">
-        <meta name="description" content="">
-        <meta name="author" content="">
-
-        <title> Geo </title>
-    </head>
-
-    <body>
-    <header class="masthead d-flex">
-        <div class="container text-center my-auto">
-            <h1 class="mb-1">Geo-search</h1>
-            <form  action= map.html class="form-group">    
-                <label for="Location">Enter your location</label><br>    
-                <input id="location" type="text" class="form-control" ><br>
-                <button  class="ClassName" type="submit" id="search-button"> Search </button>               
-            </form>
-        </div>
-    </header>
-    <div class="row">
-        <p id="weather-report" class="col-sm-8 offset-sm-2 text-center">
-        </p>
-    </div>
-    <script src="/script.js"></script>    
+<Doctype! html>
+    <html>
+        <head>
+                <link href="style/style.css" rel="stylesheet" type="text/css">
+        </head>
+        <body>
+        <div class="pac-card" id="pac-card">
+            <div>
+                <div id="label">Location search</div>
+            </div>
+            <div id="pac-container">
+                <input id="pac-input" type="text" placeholder="Enter a location">
+                    <div id="location-error"></div>
+            </div>
+            </div>
+            <div id="map"></div>
+                <div id="infowindow-content">
+                    <img src="" width="16" height="16" id="place-icon"> <span
+                        id="place-name" class="title"></span><br> <span
+                        id="place-address"></span>
+                    </div>
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHKyceVebjHsnGWYdoEUFq4nS6RCmcpzo&libraries=places&callback=initMap"
+    async defer></script>    
     </body>
-</html>
+    </html>
